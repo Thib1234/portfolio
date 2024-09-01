@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "À propos", link: "#about" },
   { name: "Portfolio", link: "#portfolio" },
-  { name: "Recommandations", link: "#references" },
+  // { name: "Recommandations", link: "#references" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -71,129 +71,129 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Simulation solaire 3D",
-    des: "Projet personnel développé pour mieux comprendre l'astronomie et expérimenter avec les technologies 3D.",
+    title: "Application de caisse - SpeedCashier",
+    des: "Systeme de caisse complet avec gestion accomptes, clients et factures.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/your-profile/solar-system",
+    iconLists: ["/tail.svg"],
+    link: "https://github.com/your-profile/solar-system", // a modifier avec le lien speedcashier github (private ?)
   },
   {
     id: 2,
-    title: "Application de visioconférence - Yoom",
-    des: "Projet académique visant à développer une application de visioconférence simple pour améliorer la communication entre étudiants.",
+    title: "Application de facturation - SimpleInvoices",
+    des: "Application de facturation avec gestion des clients et leurs magasins.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/your-profile/yoom-app",
+    iconLists: ["/tail.svg"],
+    link: "https://github.com/your-profile/yoom-app", // a modifier avec le lien de simpleinvoice (private ?)
   },
-  {
-    id: 3,
-    title: "Application SaaS d'images IA",
-    des: "Projet d'apprentissage personnel visant à créer une application SaaS intégrant des fonctionnalités IA.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/your-profile/ai-image-saas",
-  },
-  {
-    id: 4,
-    title: "Site web 3D d'un produit",
-    des: "Projet personnel pour explorer les animations 3D et améliorer mes compétences en développement front-end.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/your-profile/3d-product-site",
-  },
+  // {
+  //   id: 3,
+  //   title: "Application SaaS d'images IA",
+  //   des: "Projet d'apprentissage personnel visant à créer une application SaaS intégrant des fonctionnalités IA.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "https://github.com/your-profile/ai-image-saas",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Site web 3D d'un produit",
+  //   des: "Projet personnel pour explorer les animations 3D et améliorer mes compétences en développement front-end.",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "https://github.com/your-profile/3d-product-site",
+  // },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Travailler avec [Nom] a été une expérience très agréable. Bien qu'il/elle soit junior, son enthousiasme et sa volonté d'apprendre ont été des atouts considérables pour notre équipe.",
-    name: "Michael Johnson",
-    title: "Directeur de AlphaStream Technologies",
-  },
-  {
-    quote:
-      "[Nom] est très prometteur et montre une grande capacité à s'adapter et à apprendre rapidement. Je suis convaincu(e) qu'il/elle pourra devenir un excellent développeur avec le bon encadrement.",
-    name: "Sarah Lee",
-    title: "Manager Technique chez XYZ Corp",
-  },
-];
+// export const testimonials = [
+//   {
+//     quote:
+//       "Travailler avec [Nom] a été une expérience très agréable. Bien qu'il/elle soit junior, son enthousiasme et sa volonté d'apprendre ont été des atouts considérables pour notre équipe.",
+//     name: "Michael Johnson",
+//     title: "Directeur de AlphaStream Technologies",
+//   },
+//   {
+//     quote:
+//       "[Nom] est très prometteur et montre une grande capacité à s'adapter et à apprendre rapidement. Je suis convaincu(e) qu'il/elle pourra devenir un excellent développeur avec le bon encadrement.",
+//     name: "Sarah Lee",
+//     title: "Manager Technique chez XYZ Corp",
+//   },
+// ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+// export const companies = [
+//   {
+//     id: 1,
+//     name: "cloudinary",
+//     img: "/cloud.svg",
+//     nameImg: "/cloudName.svg",
+//   },
+//   {
+//     id: 2,
+//     name: "appwrite",
+//     img: "/app.svg",
+//     nameImg: "/appName.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "HOSTINGER",
+//     img: "/host.svg",
+//     nameImg: "/hostName.svg",
+//   },
+//   {
+//     id: 4,
+//     name: "stream",
+//     img: "/s.svg",
+//     nameImg: "/streamName.svg",
+//   },
+//   {
+//     id: 5,
+//     name: "docker.",
+//     img: "/dock.svg",
+//     nameImg: "/dockerName.svg",
+//   },
+// ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Stage en développement Frontend",
-    desc: "Première expérience de développement web en utilisant React.js pour créer des interfaces interactives.",
+    title: "Stage en développement web",
+    desc: "Première expérience de développement web en utilisant Laravel",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Développeur d'applications mobiles (projet académique)",
-    desc: "Développé des applications mobiles dans un cadre académique en utilisant des outils de développement natif pour iOS et Android.",
+    title: "Mise à niveau d'un site web",
+    desc: "Update complet d'un site utilisant shopify, mise en place d'automatisations",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Projet freelance (application mobile)",
-    desc: "Projet personnel freelance, création d'une application mobile pour un petit client, en appliquant les bases des méthodologies agiles.",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Junior Frontend Developer",
-    desc: "Première expérience en tant que développeur front-end junior, participation à la création de fonctionnalités utilisateur en utilisant des technologies modernes.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Projet freelance (application mobile)",
+  //   desc: "Projet personnel freelance, création d'une application mobile pour un petit client, en appliquant les bases des méthodologies agiles.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp3.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Junior Frontend Developer",
+  //   desc: "Première expérience en tant que développeur front-end junior, participation à la création de fonctionnalités utilisateur en utilisant des technologies modernes.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp4.svg",
+  // },
 ];
 
-
+// ************ /!\ RAJOUTER URLS /!\ ************
 export const socialMedia =  [
   {
     id: 1,
     img: "/git.svg",
   },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
   },
 ];
