@@ -8,6 +8,7 @@ const __dirname = dirname(__filename);
 const nextConfig = {
   output: "export",
   output: 'standalone',
+  swcMinify: false, // Désactiver la minification SWC
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.cache = {
