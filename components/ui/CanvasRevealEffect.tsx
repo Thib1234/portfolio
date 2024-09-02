@@ -277,10 +277,10 @@ const ShaderMaterial = ({
       blendSrc: THREE.SrcAlphaFactor,
       blendDst: THREE.OneFactor,
     });
-
+  
     return materialObject;
-  }, [size.width, size.height, source, getUniforms]);
-
+  }, [source, getUniforms]); // Retirez 'size.width' et 'size.height' si non nécessaires
+  
   return (
     <mesh ref={ref as any}>
       <planeGeometry args={[2, 2]} />
