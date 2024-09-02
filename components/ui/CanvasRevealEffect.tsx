@@ -65,7 +65,7 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   shader = "",
   center = ["x", "y"],
 }) => {
-  const uniforms = React.useMemo(() => {
+  const uniforms = useMemo(() => {
     let colorsArray = [
       colors[0],
       colors[0],
@@ -184,11 +184,11 @@ type Uniforms = {
 const ShaderMaterial = ({
   source,
   uniforms,
-  maxFps = 60,
+  maxFps = 60, // Assurez-vous que maxFps est un nombre unique
 }: {
   source: string;
   hovered?: boolean;
-  maxFps?: number;
+  maxFps: number;
   uniforms: Uniforms;
 }) => {
   const { size } = useThree();
@@ -206,7 +206,7 @@ const ShaderMaterial = ({
     const material: any = ref.current.material;
     const timeLocation = material.uniforms.u_time;
     timeLocation.value = timestamp;
-  });
+  }); // Assurez-vous que maxFps est un nombre unique
 
   const getUniforms = () => {
     const preparedUniforms: any = {};
@@ -291,11 +291,12 @@ const ShaderMaterial = ({
 
 const Shader: React.FC<ShaderProps> = ({ source, uniforms, maxFps = 60 }) => {
   return (
-    <Canvas className="absolute inset-0  h-full w-full">
+    <Canvas className="absolute inset-0 h-full w-full">
       <ShaderMaterial source={source} uniforms={uniforms} maxFps={maxFps} />
     </Canvas>
   );
 };
+
 interface ShaderProps {
   source: string;
   uniforms: {
@@ -304,5 +305,5 @@ interface ShaderProps {
       type: string;
     };
   };
-  maxFps?: number;
+  maxFps: number;
 }

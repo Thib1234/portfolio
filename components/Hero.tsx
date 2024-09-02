@@ -24,9 +24,10 @@ const Hero = () => {
 						<h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-90">Avec un BES en Web Développement et une expertise en React, Next.js, Vue.js, Laravel, PHP, Docker, et bien plus encore, je suis prêt à transformer vos idées en réalité.</h2>
 						<TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl'
 						words='Développeur Full Stack à la recherche de nouvelles opportunités' />
-						<h1 className=' heading text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-							Bonjour, je m'appelle Thibault, développeur full stack.
+						<h1 className='heading text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+						Bonjour, je m'appelle Thibault, développeur full stack.
 						</h1>
+
 						<a href="#about">
 							<MagicButton 
 							title="En savoir plus" 
