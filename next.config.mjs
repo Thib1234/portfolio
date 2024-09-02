@@ -2,8 +2,9 @@
 const nextConfig = {
 	output: "export",
 	experimental: {
-	  outputStandalone: true,
+	  // outputStandalone: true, // Supprimer cette ligne
 	},
+	output: 'standalone', // Ajouter cette ligne
 	webpack: (config, { isServer }) => {
 	  if (!isServer) {
 		config.cache = {
